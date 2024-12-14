@@ -1,0 +1,19 @@
+{
+  "name": "js-algorithm",
+  "version": "1.0.0",
+  "description": "js算法",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hflcc/js-algorithm.git"
+  },
+  "author": "hoki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hflcc/js-algorithm/issues"
+  },
+  "homepage": "https://github.com/hflcc/js-algorithm#readme"
+}
