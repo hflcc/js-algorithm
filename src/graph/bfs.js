@@ -1,4 +1,4 @@
-const { graph } = require('./graph');
+import { graph } from "./graph";
 
 // 图的广度优先遍历
 const visited = new Set();

@@ -1,4 +1,4 @@
-const { gap } = require('./graph');
+import { gap } from "./graph.js";
 
 // 权重相同
 function findShortestPath(gap, start, end) {
@@ -12,7 +12,7 @@ function findShortestPath(gap, start, end) {
     const { node, distance } = current;
 
     if (node === end) {
-      return distance; // 找到终点，返回最短距离
+      return distance; // 找到终点，返回最短距离111
     }
 
     if (!visited.has(node)) {
@@ -33,5 +33,5 @@ function findShortestPath(gap, start, end) {
   return -1; // 如果未找到路径，返回 -1 表示不可达
 }
 
-const dis = findShortestPath(gap, 'A', 'D');
+const dis = findShortestPath(gap, "A", "C");
 console.log(dis);

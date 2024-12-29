@@ -1,4 +1,4 @@
-const { graph, graph1 } = require('./graph');
+import { graph, graph1 } from "./graph";
 
 // 图的深度优先遍历
 const start = (key, source) => {
@@ -18,4 +18,4 @@ const start = (key, source) => {
 };
 
 start(2, graph);
-start('B', graph1);
+start("B", graph1);
